@@ -1,0 +1,21 @@
+{
+  "name": "galosh",
+  "version": "1.0.0",
+  "description": "A weather app",
+  "main": "cli.js",
+  "scripts": {
+    "help": "node cli.js -h",
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "author": "bekabililign",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "moment-timezone": "^0.5.37",
+    "node-fetch": "^3.2.10"
+  }
+}
